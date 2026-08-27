@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 白色胶囊药丸（自适应图标安全区 66/108），evenOdd 挖出两半之间的空隙 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M42,36 h24 a17,17 0 0 1 0,34 h-24 a17,17 0 0 1 0,-34 Z M49,53 m-6,0 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z M59,53 m-6,0 a6,6 0 1 0 12,0 a6,6 0 1 0 -12,0 Z" />
+</vector>

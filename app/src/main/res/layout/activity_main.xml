@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主界面框架：标题栏 + 内容区（日历/设置/引导）+ 底部 Tab Bar -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 标题栏：大标题 + 设置入口 -->
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_home"
+            android:textColor="@color/text_main"
+            android:textSize="@dimen/text_large_title"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btn_settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/title_settings"
+            android:padding="12dp"
+            android:src="@drawable/ic_settings" />
+    </LinearLayout>
+
+    <!-- 内容区 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <include
+            android:id="@+id/page_calendar"
+            layout="@layout/view_calendar_page" />
+
+        <include
+            android:id="@+id/page_settings"
+            layout="@layout/view_settings_page"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/page_onboarding"
+            layout="@layout/view_onboarding"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- 底部 Tab Bar -->
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:background="@color/card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tab_calendar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_calendar"
+            android:textSize="@dimen/text_body" />
+
+        <TextView
+            android:id="@+id/tab_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tab_settings"
+            android:textSize="@dimen/text_body" />
+    </LinearLayout>
+</LinearLayout>

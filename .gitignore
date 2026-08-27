@@ -1,0 +1,15 @@
+# 构建产物
+build/
+.gradle/
+*.apk
+
+# 本机配置
+local.properties
+
+# 签名（含密码，不入版本库）
+keystore/
+
+# IDE
+.idea/
+*.iml
+.DS_Store

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距 -->
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+
+    <!-- 圆角 -->
+    <dimen name="radius_card">12dp</dimen>
+    <dimen name="radius_alert">14dp</dimen>
+
+    <!-- 尺寸 -->
+    <dimen name="list_row_min">44dp</dimen>
+    <dimen name="btn_height">54dp</dimen>
+    <dimen name="tab_height">49dp</dimen>
+    <dimen name="alert_width">270dp</dimen>
+
+    <!-- 字号（老人友好放大） -->
+    <dimen name="text_large_title">34sp</dimen>
+    <dimen name="text_title_1">28sp</dimen>
+    <dimen name="text_title_2">22sp</dimen>
+    <dimen name="text_title_3">20sp</dimen>
+    <dimen name="text_body">17sp</dimen>
+    <dimen name="text_subhead">15sp</dimen>
+    <dimen name="text_footnote">13sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">吃药提醒</string>
+
+    <!-- 主界面 -->
+    <string name="tab_calendar">日历</string>
+    <string name="tab_settings">设置</string>
+    <string name="title_home">吃药记录</string>
+    <string name="title_settings">设置</string>
+    <string name="today_format">今日 · %1$s</string>
+    <string name="lock_status_on">🔒 自动锁屏已开启 · %1$d 分钟</string>
+    <string name="lock_status_off">🔒 自动锁屏已关闭</string>
+
+    <!-- 时段 -->
+    <string name="dose_breakfast">早饭药</string>
+    <string name="dose_lunch">午饭药</string>
+    <string name="dose_dinner">晚饭药</string>
+    <string name="reminder_text_breakfast">该吃早饭后的药啦</string>
+    <string name="reminder_text_lunch">该吃午饭后的药啦</string>
+    <string name="reminder_text_dinner">该吃晚饭后的药啦</string>
+    <string name="status_eaten">✅ 已吃</string>
+    <string name="status_ongoing">⏳ 进行中</string>
+    <string name="status_pending">⚪ 待提醒</string>
+    <string name="status_missed">❌ 未吃</string>
+    <string name="status_not_recorded">超时未记录</string>
+    <string name="skip_count">（跳过 %1$d 次）</string>
+
+    <!-- 弹窗 -->
+    <string name="btn_eaten">我已吃药</string>
+    <string name="btn_not_yet">还没吃</string>
+    <string name="now_time">现在 %1$s</string>
+
+    <!-- 日历详情 -->
+    <string name="detail_date">%1$s（周%2$s）</string>
+    <string name="btn_close">关闭</string>
+
+    <!-- 设置 -->
+    <string name="section_time_slots">提醒时段</string>
+    <string name="section_auto_lock">自动锁屏</string>
+    <string name="section_permissions">权限</string>
+    <string name="section_about">关于</string>
+    <string name="auto_lock">自动锁屏</string>
+    <string name="lock_duration">锁屏时长</string>
+    <string name="duration_value">%1$d 分钟</string>
+    <string name="notify_permission">通知权限</string>
+    <string name="accessibility_permission">无障碍权限</string>
+    <string name="overlay_permission">悬浮窗权限</string>
+    <string name="perm_on">已开启</string>
+    <string name="perm_off">未开启</string>
+    <string name="version">版本 %1$s</string>
+    <string name="time_slot_value">%1$s - %2$s</string>
+
+    <!-- 引导页 -->
+    <string name="welcome_title">欢迎使用「吃药提醒」</string>
+    <string name="welcome_subtitle">为正常使用，请开启以下 3 项权限：</string>
+    <string name="perm_notify_desc">解锁时弹窗提醒吃药</string>
+    <string name="perm_access_desc">用于 15 分钟无操作自动锁屏</string>
+    <string name="perm_overlay_desc">在桌面或其他应用上方弹窗提醒（后台可用）</string>
+    <string name="btn_enable">去开启</string>
+    <string name="btn_start">开始使用</string>
+
+    <!-- 服务 -->
+    <string name="channel_reminder">吃药提醒服务</string>
+    <string name="service_notify_title">吃药提醒运行中</string>
+    <string name="service_notify_text">解锁时提醒吃药，不影响正常使用</string>
+    <string name="auto_lock_service_label">吃药提醒 · 自动锁屏</string>
+
+    <!-- 数组 -->
+    <string-array name="dose_names">
+        <item>早饭药</item>
+        <item>午饭药</item>
+        <item>晚饭药</item>
+    </string-array>
+    <string-array name="reminder_texts">
+        <item>该吃早饭后的药啦</item>
+        <item>该吃午饭后的药啦</item>
+        <item>该吃晚饭后的药啦</item>
+    </string-array>
+</resources>
